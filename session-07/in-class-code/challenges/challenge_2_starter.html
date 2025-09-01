@@ -8,8 +8,14 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script type="text/jsx">
       const domNode = document.getElementById('app');
-      const root = ReactDOM.createRoot(domNode);
-      root.render(<App />);
+      //get-id element app turn into domNode-> variable
+
+      const root = ReactDOM.createRoot(domNode); 
+      //domNode creates a root for DOM element and allow call functions on root
+
+      root.render(<Apple />); //
+      //display a piece of JSX into the React root browser DOM node.
+      //React will display <App /> in the root
 
       function ItemList({ items }) {
         //template
@@ -23,7 +29,7 @@
       }
 
       // Usage example
-      function App() {
+      function Apple() {
         const items = [
           { id: 1, title: "First Item" },
           { id: 2, title: "Second Item" },
