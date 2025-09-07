@@ -3,6 +3,8 @@ function getFullName() {
   return user.firstName + " " + user.lastName;
 }
 
+let getFullName = (user) => { return user.firstName + " " + user.lastName};
+
 const userObject = {
   firstName: "John",
   lastName: "Doe",
@@ -22,4 +24,4 @@ const userObject = {
 };
 
 // Fix this code using an arrow function.
-console.log(getFullName(userObject));
+console.log(getFullName(user));

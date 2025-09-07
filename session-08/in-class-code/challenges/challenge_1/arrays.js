@@ -14,6 +14,7 @@ const user = {
     linkedIn: "linkedin.com/in/johndoe",
   },
   isEmployed: true,
+  
   // Function to calculate membership status
   calculateMembershipStatus: function () {
     if (this.age >= 18 && !this.isStudent) {
