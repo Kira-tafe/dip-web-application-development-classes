@@ -1,9 +1,9 @@
 // Convert the following code to an arrow function assigned to a getFull name variable
-function getFullName() {
-  return user.firstName + " " + user.lastName;
-}
+// function getFullName() {
+//   return user.firstName + " " + user.lastName;
+// }
 
-let getFullName = (user) => { return user.firstName + " " + user.lastName};
+let getFullName = () => { return userObject.firstName + " " + userObject.lastName};
 
 const userObject = {
   firstName: "John",
@@ -24,4 +24,4 @@ const userObject = {
 };
 
 // Fix this code using an arrow function.
-console.log(getFullName(user));
+console.log(getFullName());

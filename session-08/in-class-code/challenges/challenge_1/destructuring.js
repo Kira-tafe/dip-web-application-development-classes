@@ -28,6 +28,8 @@ const {
   isEmployed,
 } = userObject;
 
+const { }
+
 // This doesnt look right!
 const street = address.street;
 const twitterHandle = socialProfiles.twitter;
